@@ -1,8 +1,41 @@
 
+
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size:50px;    
     
+}
+/* egen klasse for å endre posisjon på academy ordet i tittel*/
+.h1academy{
+    margin-left: 220px;
+}
 
+/* egen div med både tittel og bilde*/
+div.tittelBakgrunnContainer{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+/* bakgrunnsbilde men nå i sin egen div. kanskje dette løser tidligere problemer med bilde posisjon*/
+div.background{
+    background-image: url("assets/images/header-image.png");
+    height: 900px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    opacity: 100%;
+    
+   
+    
+}
+/*Position og z-index avgjør hvilken div som havner oppå hvem
+*/
+div.tittel{
+    z-index:9;
+    position: absolute;
+    
 }
