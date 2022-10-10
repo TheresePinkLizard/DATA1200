@@ -1,12 +1,21 @@
 
+/* Jonas prøvde å sentrere alt, fungerte ikke! D:
+
+body    {
+    display: flex;
+    justify-content: center;
+}
+*/
+
 /*tittel*/
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size:45px;  
-    margin-left: 40px;  
-    
+    letter-spacing: 0.2em;
+    font-size:52px;  
+    margin-left: 40px;
+    font-weight: 500;
+    line-height: 60px;
 }
 /* egen klasse for å endre posisjon på academy ordet i tittel*/
 .h1academy{
@@ -29,7 +38,6 @@ div.background{
     background-repeat: no-repeat;
     top: 0;
     left: 0;
-    opacity: 100%;
     background-size: 60%;
     
    
