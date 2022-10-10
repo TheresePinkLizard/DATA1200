@@ -1,5 +1,5 @@
 
-
+/*tittel*/
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -35,7 +35,7 @@ div.background{
    
     
 }
-/*Position og z-index avgjør hvilken div som havner oppå hvem
+/*Position på bakgrunn og tekst + z-index avgjør hvilken div som havner oppå hvem
 */
 div.tittel{
     z-index:9;
