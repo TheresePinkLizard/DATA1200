@@ -1,5 +1,5 @@
 
-/* Jonas prøvde å sentrere alt, fungerte ikke! D:
+/* Jonas prøvde å sentrere alt, fungerte ikke! D: !andreas har lagt til body tag nederst for å teste deling av side i to!
 
 body    {
     display: flex;
@@ -82,6 +82,18 @@ div.tittel{
 }
 
 .bilde1side2{
-    background-image: url("assets/images/nybakgrunnbil.jpg");
+    background-image: url("assets/images/bilde1.png");
 }
+
+.bilde2side2{
+    background-image: url("assets/images/bilde2.png");
+}
+
+/* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 /* andreas sitt workspace */
