@@ -11,24 +11,28 @@ body    {
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.15em;
     font-size:52px;  
-    margin-left: 40px;
     font-weight: 500;
-    line-height: 60px;
+    line-height: 61px;
+
+    margin-left: 20px;
+    margin-bottom: -35px
 }
 /* egen klasse for å endre posisjon på academy ordet i tittel*/
 .h1academy{
-    margin-left: 260px;
-    
+    /* margin-left: 260px; */
+    text-align: right;
+    width: 570px
+
 }
 
 /* egen div med både tittel og bilde*/
 div.tittelBakgrunnContainer{
-    width: 200px;
+    /* width: 200px;
     height: 200px;
-    position: relative;
-    margin: 20px;
+    position: relative;                             /* Jonas kommenterte ut, fordi det gjorde ingen forskjell + jeg skal prøve ut noen greier
+    margin: 20px; */
 }
 /* bakgrunnsbilde men nå i sin egen div. kanskje dette løser tidligere problemer med bilde posisjon*/
 div.background{
@@ -38,11 +42,20 @@ div.background{
     background-repeat: no-repeat;
     top: 0;
     left: 0;
-    background-size: 60%;
-    
-   
-    
+    background-size: 60%;    
 }
+
+p.ingress   {
+    width: 192px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    }
+
 /*Position på bakgrunn og tekst + z-index avgjør hvilken div som havner oppå hvem
 */
 div.tittel{
