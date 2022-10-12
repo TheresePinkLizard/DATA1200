@@ -48,10 +48,25 @@ h1.h1academy{
     margin-top: 15px;
 }
 hr.linje{
-    color:black;
-    
+
+    width: 250px;
+    margin-left: 10px;
+    border: 1 px;
+    position: absolute;
+    margin-top: 0px;
 }
 
+.footer{
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+/*forslag til tekst øverst-->*/
+.topheader{
+    
+}
 
 /* egen div med både tittel og bilde*/
 div.tittelBakgrunnContainer{
@@ -111,11 +126,8 @@ div.tittel{
 
 /* andreas sitt workspace */
 .side2body{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    box-sizing: border-box;
-    justify-content: space-evenly;
-    align-items: start;
+    display: flex;
+    flex-direction: row;
 }
 
 .side2bilderhøyre{
@@ -126,10 +138,12 @@ div.tittel{
 
 .bilde1side2{
     background-image: url("assets/images/bilde1.png");
+    object-fit: cover;
 }
 
 .bilde2side2{
     background-image: url("assets/images/bilde2.png");
+    object-fit: cover;
 }
 
 /* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -141,15 +155,7 @@ body{
 
 /* andreas sitt workspace */
 
-/*karoline tester ting*/
-img.bilde1side2{
-   height="200"
-   width=200"
 
-;}
 
-img.bilde2side2{
-size: 200px;
-}
-/*karoline tester ting*/
+
 /* andreas sitt workspace */
