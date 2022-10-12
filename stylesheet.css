@@ -72,16 +72,16 @@ div.tittel{
     position: absolute;
     
 }
-.hr {
-    background-color:black
-    margin-top: 20px;
-    border: 1.5px solid rgb(0,0,0)
 
-}
 .hrtekst{
-    position :absolute;
+    
     font-family: serif;
-    font-size:10px; 
+    font-weight: bold;
+    font-size:11px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
 }
 
 /* andreas sitt workspace */
