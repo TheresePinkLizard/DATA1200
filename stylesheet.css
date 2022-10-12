@@ -107,11 +107,8 @@ div.tittel{
 
 /* andreas sitt workspace */
 .side2body{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    box-sizing: border-box;
-    justify-content: space-evenly;
-    align-items: start;
+    display: flex;
+    flex-direction: row;
 }
 
 .side2bilderhøyre{
@@ -122,10 +119,12 @@ div.tittel{
 
 .bilde1side2{
     background-image: url("assets/images/bilde1.png");
+    object-fit: cover;
 }
 
 .bilde2side2{
     background-image: url("assets/images/bilde2.png");
+    object-fit: cover;
 }
 
 /* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
