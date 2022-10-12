@@ -48,15 +48,17 @@ div.background{
 
 
 p.ingress   {
-    width: 192px;
-
+    height: 70px;
+    width: 220px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 14px;
-    text-align: right;
+    line-height: 13px;
+    margin-left: 350px;
     position: absolute;
+    margin-top: 50px;
+    text-align: right;
    
 
     }
