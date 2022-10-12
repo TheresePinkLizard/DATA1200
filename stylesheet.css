@@ -7,7 +7,7 @@ body    {
 }
 */
 
-/*tittel*/
+/* alle titler*/
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -19,8 +19,12 @@ h1  {
     margin-left: 20px;
     margin-bottom: -35px
 }
-/* egen klasse for å endre posisjon på academy ordet i tittel*/
-.h1academy{
+/* egen klasse for å endre posisjon på ARCHISTAR ordet i tittel*/
+h1.h1archistar  {
+    width: 350px;
+}
+/* egen klasse for å endre posisjon på ACADEMY ordet i tittel*/
+h1.h1academy{
     /* margin-left: 260px; */
     text-align: right;
     width: 300px;
@@ -31,7 +35,7 @@ h1  {
 .tekstToppHøyre{
    position: absolute;
    margin-left: 440px;
-   width: 500px;
+   width: 120px;
    font-size: 10px;
   
    
