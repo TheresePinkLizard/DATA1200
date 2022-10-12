@@ -42,7 +42,8 @@ div.background{
     background-repeat: no-repeat;
     top: 0;
     left: 0;
-    background-size: 60%;    
+    background-size: 60%;  
+    opacity: 100%;  
 }
 
 
@@ -55,6 +56,9 @@ p.ingress   {
     font-size: 12px;
     line-height: 14px;
     text-align: right;
+    position: absolute;
+   
+
     }
 
 /*Position på bakgrunn og tekst + z-index avgjør hvilken div som havner oppå hvem
