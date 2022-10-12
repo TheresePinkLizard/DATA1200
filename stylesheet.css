@@ -139,12 +139,13 @@ body{
 
 /*karoline tester ting*/
 img.bilde1side2{
-    width: 240;
-    height: 240;
+   height="200"
+   width=200"
+
 ;}
 
-img,.bilde2side2{
-
+img.bilde2side2{
+size: 200px;
 }
 /*karoline tester ting*/
 /* andreas sitt workspace */
