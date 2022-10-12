@@ -27,6 +27,8 @@ h1  {
 
 }
 
+
+
 /* egen div med både tittel og bilde*/
 div.tittelBakgrunnContainer{
     /* width: 200px;
@@ -48,15 +50,17 @@ div.background{
 
 
 p.ingress   {
-    width: 192px;
-
+    height: 70px;
+    width: 220px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 14px;
-    text-align: right;
+    line-height: 13px;
+    margin-left: 350px;
     position: absolute;
+    margin-top: 50px;
+    text-align: right;
    
 
     }
@@ -68,7 +72,17 @@ div.tittel{
     position: absolute;
     
 }
+.hr {
+    background-color:black
+    margin-top: 20px;
+    border: 1.5px solid rgb(0,0,0)
 
+}
+.hrtekst{
+    position :absolute;
+    font-family: serif;
+    font-size:10px; 
+}
 
 /* andreas sitt workspace */
 .side2body{
@@ -92,12 +106,4 @@ div.tittel{
 .bilde2side2{
     background-image: url("assets/images/bilde2.png");
 }
-
-/* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-body{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
 /* andreas sitt workspace */
