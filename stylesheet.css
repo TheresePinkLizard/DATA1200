@@ -23,8 +23,19 @@ h1  {
 .h1academy{
     /* margin-left: 260px; */
     text-align: right;
-    width: 570px
+    width: 300px;
+    margin-left: 292px;
 
+
+}
+.tekstToppHøyre{
+   position: absolute;
+   margin-left: 440px;
+   width: 500px;
+   font-size: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif
+   
+    
 }
 
 
@@ -107,4 +118,24 @@ div.tittel{
 .bilde2side2{
     background-image: url("assets/images/bilde2.png");
 }
+
+/* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* andreas sitt workspace */
+
+/*karoline tester ting*/
+img.bilde1side2{
+    width: 240;
+    height: 240;
+;}
+
+img,.bilde2side2{
+
+}
+/*karoline tester ting*/
 /* andreas sitt workspace */
