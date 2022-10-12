@@ -38,6 +38,8 @@ h1  {
     
 }
 
+
+
 /* egen div med både tittel og bilde*/
 div.tittelBakgrunnContainer{
     /* width: 200px;
@@ -82,6 +84,16 @@ div.tittel{
     
 }
 
+.hrtekst{
+    
+    font-family: serif;
+    font-weight: bold;
+    font-size:11px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
 
 /* andreas sitt workspace */
 .side2body{
@@ -108,5 +120,21 @@ div.tittel{
 
 /* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
+/* andreas sitt workspace */
+
+/*karoline tester ting*/
+img.bilde1side2{
+    width: 240;
+    height: 240;
+;}
+
+img,.bilde2side2{
+
+}
+/*karoline tester ting*/
 /* andreas sitt workspace */
