@@ -131,6 +131,9 @@ img.note {
 }
 
 
+
+
+
 /* andreas sitt workspace */
 .side2body{
     display: grid;
@@ -160,9 +163,20 @@ img.note {
     grid-row: 20%;
 }
 
+<<<<<<< Updated upstream
 .img{
     width: 100%;
     height: auto;
+=======
+.footer2{
+    height: 40px;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-size: 10px;
+    padding-left:450px;
+}
+
+>>>>>>> Stashed changes
 
 }
 /* andreas sitt workspace */
