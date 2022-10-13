@@ -128,29 +128,34 @@ div.tittel{
 .side2body{
     display: flex;
     flex-direction: row;
+    width: 600px;
+    height: 450px;
+    justify-content: center;
+    justify-content: baseline;
+    /*display: grid;
+    grid-template-columns: 30% 70%;*/
+    
+}
+
+.side2textvenstre{
+    flex: 30%;
 }
 
 .side2bilderhøyre{
+    /*grid-column: 70%;*/
+    flex: 70%
     display: grid;
     grid-template-rows: 40% 20% 40%;
     box-sizing: content-box;
 }
 
-.bilde1side2{
-    background-image: url("assets/images/bilde1.png");
-    object-fit: cover;
+.bilde1og2side2{
+    grid-row: 40%;
 }
 
-.bilde2side2{
-    background-image: url("assets/images/bilde2.png");
-    object-fit: cover;
+.img{
+    width: 100%;
+    height: auto;
+
 }
-
-/* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-body{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
 /* andreas sitt workspace */
