@@ -123,6 +123,14 @@ div.tittel{
 
 }
 
+img.note {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 130px;
+}
+
 
 /* andreas sitt workspace */
 .side2body{
