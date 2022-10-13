@@ -126,14 +126,10 @@ div.tittel{
 
 /* andreas sitt workspace */
 .side2body{
-    display: flex;
-    flex-direction: row;
-    width: 600px;
-    height: 450px;
-    justify-content: center;
-    justify-content: baseline;
-    /*display: grid;
-    grid-template-columns: 30% 70%;*/
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 1000px;
+    width: 592px;
     
 }
 
