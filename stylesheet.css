@@ -87,6 +87,9 @@ div.background{
     opacity: 100%;  
 }
 
+p{
+    font-size: 6px;
+}
 
 p.ingress   {
     height: 70px;
@@ -163,11 +166,10 @@ img.note {
     grid-row: 20%;
 }
 
-<<<<<<< Updated upstream
 .img{
     width: 100%;
     height: auto;
-=======
+}
 .footer2{
     height: 40px;
     margin-right: 60px;
@@ -176,7 +178,6 @@ img.note {
     padding-left:450px;
 }
 
->>>>>>> Stashed changes
 
 }
 /* andreas sitt workspace */
