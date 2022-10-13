@@ -133,29 +133,36 @@ img.note {
 
 /* andreas sitt workspace */
 .side2body{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 1000px;
+    width: 592px;
+    
+}
+
+.side2textvenstre{
+    flex: 30%;
 }
 
 .side2bilderhøyre{
+    /*grid-column: 70%;*/
+    flex: 70%
     display: grid;
     grid-template-rows: 40% 20% 40%;
     box-sizing: content-box;
 }
 
-.bilde1side2{
-    background-image: url("assets/images/bilde1.png");
-    object-fit: cover;
-    height: 350px;
-    width: 500px;
+.bilde1og2side2{
+    grid-row: 40%;
 }
 
-.bilde2side2{
-    background-image: url("assets/images/bilde2.png");
-    object-fit: cover;
-    height: 350px;
-    width: 500px;
+.texthøyreside{
+    grid-row: 20%;
 }
 
+.img{
+    width: 100%;
+    height: auto;
 
+}
 /* andreas sitt workspace */
