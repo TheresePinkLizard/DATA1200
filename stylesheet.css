@@ -139,11 +139,15 @@ div.tittel{
 .bilde1side2{
     background-image: url("assets/images/bilde1.png");
     object-fit: cover;
+    height: 300px;
+    width: 430px;
 }
 
 .bilde2side2{
     background-image: url("assets/images/bilde2.png");
     object-fit: cover;
+    height: 300px;
+    width: 430px;
 }
 
 /* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
