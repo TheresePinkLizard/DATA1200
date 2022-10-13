@@ -113,7 +113,7 @@ div.tittel{
 }
 
 .hrtekst{
-    
+    /*ANDREASFIKSAFAKTISK*/
     font-family: serif;
     font-weight: bold;
     font-size:11px; 
@@ -158,11 +158,5 @@ img.note {
     width: 500px;
 }
 
-/* TEST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-body{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
 
 /* andreas sitt workspace */
