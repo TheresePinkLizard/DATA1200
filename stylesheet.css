@@ -113,16 +113,14 @@ div.tittel{
 }
 
 .hrtekst{
-    /*ANDREASFIKSAFAKTISK*/
     font-family:Arial, Helvetica, sans-serif;
- 
     font-size:10px; 
     margin-top: 40px;
     margin-bottom: 40px;
-
-
+    padding-left: 2%;
 
 }
+
 
 img.note {
     width: 15px;
