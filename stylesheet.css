@@ -179,6 +179,11 @@ img.note {
     grid-row: 20%;
 }
 
+div.side2textvenstre   {
+    margin-left: 2px;
+}
+
+
 .img{
     width: 100%;
     height: auto;
