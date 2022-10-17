@@ -87,6 +87,15 @@ div.background{
     opacity: 100%;  
 }
 
+p{
+    font-size: 6px;
+}
+.yeahbaby{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
 
 p.ingress   {
     height: 70px;
