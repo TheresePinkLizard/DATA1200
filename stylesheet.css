@@ -174,8 +174,9 @@ img.note {
 .side2textvenstre{
     flex: 30%;
     border-right: solid black 1px;
-    height: fit-content;
-    width: fit-content;
+    padding-right: 20px;
+    height: 100%;
+    width: 100%;
 
 }
 
