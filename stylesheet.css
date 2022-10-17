@@ -216,6 +216,8 @@ img.note {
 
 .texthøyreside{
     grid-row: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .img{
