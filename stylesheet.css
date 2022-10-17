@@ -63,14 +63,6 @@ hr.linje{
     font-size: 10px;
 }
 
-.footer2{
-    height: 40px;
-    margin-left:30px;
-    margin-top:20px;
-    font-size:10px;
-    padding-left:85%;
-}
-
 /*forslag til tekst øverst-->*/
 .topheader{
     
@@ -96,7 +88,7 @@ div.background{
 }
 
 p{
-    font-size: 10px;
+    font-size: 6px;
 }
 .yeahbaby{
     display: grid;
@@ -177,8 +169,6 @@ img.note {
     display: grid;
     grid-template-rows: 40% 20% 40%;
     box-sizing: content-box;
-    margin-left: 30px;
-
 }
 
 .bilde1og2side2{
@@ -195,7 +185,7 @@ div.side2textvenstre   {
 
 
 .img{
-    width: 120%;
+    width: 100%;
     height: auto;
 }
 
@@ -208,5 +198,5 @@ div.side2textvenstre   {
 }
 
 
-
+}
 /* andreas sitt workspace */
