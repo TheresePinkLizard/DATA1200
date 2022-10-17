@@ -88,7 +88,7 @@ div.background{
 }
 
 p{
-    font-size: 11px;
+    font-size: 6px;
 }
 .yeahbaby{
     display: grid;
@@ -169,8 +169,6 @@ img.note {
     display: grid;
     grid-template-rows: 40% 20% 40%;
     box-sizing: content-box;
-    margin-left: 30px;
-
 }
 
 .bilde1og2side2{
@@ -181,8 +179,13 @@ img.note {
     grid-row: 20%;
 }
 
+div.side2textvenstre   {
+    margin-left: 2px;
+}
+
+
 .img{
-    width: 120%;
+    width: 100%;
     height: auto;
 }
 
