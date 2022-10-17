@@ -169,6 +169,8 @@ img.note {
     display: grid;
     grid-template-rows: 40% 20% 40%;
     box-sizing: content-box;
+    margin-left: 30px;
+
 }
 
 .bilde1og2side2{
@@ -180,13 +182,10 @@ img.note {
 }
 
 .img{
-    width: 100%;
+    width: 120%;
     height: auto;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> b69006b816c3e134b7d64a3260d7688ceb24029e
 .footer2{
     height: 40px;
     margin-right: 60px;
@@ -196,5 +195,5 @@ img.note {
 }
 
 
-}
+
 /* andreas sitt workspace */
