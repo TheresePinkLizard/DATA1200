@@ -140,6 +140,16 @@ div.tittel{
     font-family:Arial, Helvetica, sans-serif;
     font-size:10px; 
 }
+.hrtekst2 {
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 750px;
+}
+.hrtekst3 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 1150px; 
+    position: absolute;
+}
 
 .ignorerthisshit{
     display: grid;
@@ -149,9 +159,11 @@ div.tittel{
     margin-top: 40px;
     margin-bottom: 10px;
     padding-left: 2%;
-    width: 592px;
+    width: 1100px;
     height: auto;
 }
+
+
 
 img.note {
     width: 15px;
