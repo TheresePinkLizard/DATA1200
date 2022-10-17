@@ -208,6 +208,8 @@ img.note {
     display: grid;
     grid-template-rows: 40% 20% 40%;
     box-sizing: content-box;
+    margin-left: 30px;
+
 }
 
 .bilde1og2side2{
