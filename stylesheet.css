@@ -138,10 +138,12 @@ div.tittel{
     font-size:10px; 
 }
 .hrtekst2 {
+    font-family:Arial, Helvetica, sans-serif;
     position: absolute;
     margin-left: 750px;
 }
 .hrtekst3 {
+    font-family:Arial, Helvetica, sans-serif;
     margin-left: 1150px; 
     position: absolute;
 }
