@@ -8,6 +8,10 @@ body    {
 */
 
 /* alle titler*/
+body{
+    width: 1250px;
+    height: auto;
+}
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -170,6 +174,9 @@ img.note {
 .side2textvenstre{
     flex: 30%;
     border-right: solid black 1px;
+    height: fit-content;
+    width: fit-content;
+
 }
 
 .side2bilderhøyre{
