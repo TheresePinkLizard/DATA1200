@@ -79,9 +79,9 @@ hr.linje{
 
 .footer2{
     height: 40px;
-    margin-left:30px;
     margin-top:20px;
     font-size:10px;
+    width: 670px;
 
 }
 
@@ -228,7 +228,7 @@ img.note {
 }
 
 .img{
-    width: 120%;
+    width: 118%;
     height: auto;
 }
 .footer2{
