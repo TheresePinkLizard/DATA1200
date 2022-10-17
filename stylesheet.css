@@ -8,6 +8,10 @@ body    {
 */
 
 /* alle titler*/
+body{
+    width: 1250px;
+    height: auto;
+}
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -100,8 +104,8 @@ p{
 }
 .yeahbaby{
     display: grid;
-    grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
+    position: static;
 }
 
 
@@ -162,13 +166,17 @@ img.note {
 .side2body{
     display: grid;
     grid-template-columns: 30% 70%;
-    height: 1000px;
+    height: 750px;
     width: 592px;
     
 }
 
 .side2textvenstre{
     flex: 30%;
+    border-right: solid black 1px;
+    height: fit-content;
+    width: fit-content;
+
 }
 
 .side2bilderhøyre{
@@ -187,16 +195,14 @@ img.note {
     grid-row: 20%;
 }
 
-div.side2textvenstre   {
-    margin-left: 2px;
-}
-
-
 .img{
     width: 100%;
     height: auto;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> b69006b816c3e134b7d64a3260d7688ceb24029e
 .footer2{
     height: 40px;
     margin-right: 60px;
