@@ -33,8 +33,11 @@ h1.h1academy{
     text-align: right;
     width: 300px;
     margin-left: 292px;
+}
 
-
+h2  {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1em;
 }
 .tekstToppHøyre{
    position: absolute;
