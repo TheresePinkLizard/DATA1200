@@ -1,17 +1,12 @@
 
-/* Jonas prøvde å sentrere alt, fungerte ikke! D: !andreas har lagt til body tag nederst for å teste deling av side i to!
 
-body    {
-    display: flex;
-    justify-content: center;
-}
-*/
 
-/* alle titler*/
 body{
     width: 1250px;
     height: auto;
 }
+
+/* alle titler*/
 h1  {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -27,42 +22,51 @@ h1  {
 h1.h1archistar  {
     width: 350px;
 }
+
 /* egen klasse for å endre posisjon på ACADEMY ordet i tittel*/
-h1.h1academy{
-    /* margin-left: 260px; */
+h1.h1academy    {
     text-align: right;
     width: 300px;
     margin-left: 292px;
 }
 
-h2  {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.1em;
-}
-
-h2  {
+h2      {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.15em;
 }
 
-.tekstToppHøyre{
+p   {
+    font-size: 11px;
+}
+
+p.bildeTekst    {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+b   {
+    font-size: 8px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.tekstToppHøyre     {
    position: absolute;
    margin-left: 440px;
    width: 120px;
    font-size: 10px;
-  
-   
-    
 }
-.TekstOppeVenstre{
+
+.tekstOppeVenstre   {
     margin-left: 80px;
     font-size: 10px;
     position: absolute;
     margin-top: 15px;
 }
-hr.linje{
 
+hr.linje    {
     width: 250px;
     margin-left: 10px;
     border: 1 px;
@@ -70,14 +74,14 @@ hr.linje{
     margin-top: 0px;
 }
 
-.footer{
+.footer     {
     height: 40px;
     margin-left: 30px;
     margin-top: 30px;
     font-size: 10px;
 }
 
-.footer2{
+.footer2    { 
     height: 40px;
     margin-top:20px;
     font-size:10px;
@@ -85,19 +89,6 @@ hr.linje{
 
 }
 
-/*forslag til tekst øverst-->*/
-.topheader{
-    
-}
-
-/* egen div med både tittel og bilde*/
-div.tittelBakgrunnContainer{
-    /* width: 200px;
-    height: 200px;
-    position: relative;                             /* Jonas kommenterte ut, fordi det gjorde ingen forskjell + jeg skal prøve ut noen greier
-    margin: 20px; */
-}
-/* bakgrunnsbilde men nå i sin egen div. kanskje dette løser tidligere problemer med bilde posisjon*/
 div.background{
     background-image: url("assets/images/nybakgrunnbil.jpg");
     height: 750px;
@@ -109,10 +100,10 @@ div.background{
     opacity: 100%;  
 }
 
-p{
-    font-size: 11px;
-}
-.yeahbaby{
+
+
+    /* Legger sidene ved siden av hverandre */
+div.side1og2Container{
     display: grid;
     grid-template-columns: 50% 50%;
     position: static;
@@ -143,27 +134,27 @@ div.tittel{
     
 }
 
-.hrtekst{
+div.hrTekst{
     font-family:Arial, Helvetica, sans-serif;
     font-size:10px; 
 }
 
-.hrtekst1 {
+div.hrTekst1 {
     font-family:Arial, Helvetica, sans-serif;
     margin-right: 300 px;
 }
-.hrtekst2 {
+div.hrTekst2 {
     font-family:Arial, Helvetica, sans-serif;
     position: absolute;
     margin-left: 750px;
 }
-.hrtekst3 {
+div.hrTekst3 {
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 1150px; 
     position: absolute;
 }
 
-.ignorerthisshit{
+div.sideHeader{
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 40% 50%;
@@ -187,10 +178,7 @@ img.note {
 
 
 
-
-
-/* andreas sitt workspace */
-.side2body{
+div.side2Body{
     display: grid;
     grid-template-columns: 30% 70%;
     height: 750px;
@@ -198,7 +186,7 @@ img.note {
     
 }
 
-.side2textvenstre{
+div.side2TekstVenstre{
     flex: 30%;
     border-right: solid rgb(202, 201, 201) 1px;
     padding-right: 12px;
@@ -207,8 +195,7 @@ img.note {
 
 }
 
-.side2bilderhøyre{
-    /*grid-column: 70%;*/
+div.side2BilderHøyre{
     flex: 70%
     display: grid;
     grid-template-rows: 40% 20% 40%;
@@ -217,28 +204,24 @@ img.note {
 
 }
 
-.bilde1og2side2{
+div.bilde1og2Side2{
     grid-row: 40%;
+    width: 462px;
 }
 
-.texthøyreside{
-    grid-row: 20%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+div.tekstHøyreSide    {
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 462px;
 }
 
 .img{
-    width: 118%;
+    width: 101%;
     height: auto;
 }
-.footer2{
+div.footer2{
     height: 40px;
-    margin-right: 60px;
-    margin-top: 30px;
     font-size: 10px;
-   padding-left:350px;
+    padding-top: 9px;
+    padding-left:400px;
 }
-
-
-
-/* andreas sitt workspace */
